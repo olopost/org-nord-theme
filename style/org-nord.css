@@ -22,7 +22,7 @@ img {
   color: var(--nord0);
     font-family: verdana, sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 0.9em;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -35,7 +35,7 @@ img {
   color: var(--nord9);
     font-family: verdana, sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 0.9em;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -69,7 +69,7 @@ body a{
 table {
   table-layout: auto; !important;
   width: auto; !important;
-    font-size: 10pt;
+    font-size: 0.9em;
     line-height: 110%;
     border-color: var(--nord3);
     border-collapse: collapse;
@@ -84,9 +84,9 @@ table th {
     padding-top: 2px;
     background-color: var(--nord0);
     color: var(--nord4);
-    font-weight: 300;
+    font-weight: bold;
     margin-top: 2pt;
-    font-size: 10pt;
+    font-size: 1.1em;
 }
 
 h1 {
@@ -94,42 +94,59 @@ h1 {
     text-align: left!important;
     background: var(--nord0);
     width: 100%;
-    font-size: 24px;
-    line-height: 1.0em;
-    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    font-weight: bold;
     margin: 0px 0px;
     color: var(--nord4);
     float: center; /* If you want it to be centered */
     padding-top: 5px;
     padding-left: 10px;
     border-radius: 10px;
+
+    margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 h2 {
    display: inline-block;
     width: calc(100%);
     padding-left: 15px;
-    font-size: 18pt;
+    font-size: 1.8em;
     font-weight: 10;
     background: var(--nord1);
     color: var(--nord4);
     border-radius: 10px;
+    margin-block-start: 0em;
+margin-block-end: 0.2em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 h3 {
     padding-left: 20px;
-    font-size: 16pt;
+    font-size: 1.6em;
     background: var(--nord2);
     color: var(--nord4);
     border-radius: 4px;
+    margin-block-start: 0em;
+margin-block-end: 0.2em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 h4 {
     padding-left: 25px;
-    font-size: 14pt;
+    font-size: 1.4em;
     background: var(--nord3);
     color: var(--nord4);
     border-radius: 4px;
+    margin-block-start: 0em;
+margin-block-end: 0.2em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 h4 a {
