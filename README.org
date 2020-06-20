@@ -21,6 +21,12 @@ Just add *#+SETUPFILE:* directive to your orgfile
 * Gallery
 
 ** Title level2
+*** TODO some thing
+thing to do
+*** DONE other thing
+thing done
+*** WAIT for call
+call me one day
 
 *** table
 #+NAME: table
