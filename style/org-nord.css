@@ -1,0 +1,6 @@
+@import "style/nord.css";
+
+body {
+  background-color: var(--nord0);
+  color: var(--nord8);
+}

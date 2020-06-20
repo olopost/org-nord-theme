@@ -1,4 +1,15 @@
 #+TITLE: org-nord-theme
+#+SETUPFILE: setup/nord.setup
 * Org-Nord-Theme
 How to export html with an awesome artic HTML
 
+* Using the theme
+Just add *#+SETUPFILE:* directive to your orgfile
+
+#+BEGIN_SRC orgfile
+#+SETUPFILE: path/to/setup/file/nord.setup
+#+END_SRC
+
+* Thanks to:
+- f_niessen that inspirate this theme [[https://github.com/fniessen/org-html-themes][project on GitHub]]
+- Artic Ice Studio for the beautiful [[https://www.nordtheme.com][Nord Theme]]
