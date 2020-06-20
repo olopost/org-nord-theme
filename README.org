@@ -1,7 +1,14 @@
 #+TITLE: org-nord-theme
+#+OPTION: ^:nil
 #+SETUPFILE: setup/nord.setup
 * Org-Nord-Theme
 How to export html with an awesome artic HTML
+
+** Demo
+#+WIDTH: 400px
+#+CAPTION: example d'affichage
+#+ATTR_HTML: :width 400px
+[[file:doc/example.png]]
 
 * Using the theme
 Just add *#+SETUPFILE:* directive to your orgfile
@@ -9,6 +16,28 @@ Just add *#+SETUPFILE:* directive to your orgfile
 #+BEGIN_SRC orgfile
 #+SETUPFILE: path/to/setup/file/nord.setup
 #+END_SRC
+
+* Gallery
+
+** Title level2
+
+*** table
+#+NAME: table
+#+CAPTION: table
+| header1     | header2    |
+|-------------+------------|
+| content_h1  | content_h2 |
+| contentrow2 | contentrow |
+
+*** code
+#+BEGIN_SRC python
+import os
+
+print("test")
+#+END_SRC
+
+#+RESULTS:
+: None
 
 * Thanks to:
 - f_niessen that inspirate this theme [[https://github.com/fniessen/org-html-themes][project on GitHub]]
