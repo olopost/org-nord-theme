@@ -2,11 +2,12 @@
 #+OPTION: ^:nil
 #+SETUPFILE: setup/nord.setup
 * Org-Nord-Theme
-How to export html with an awesome artic HTML
+How to export html with an awesome artic theme
 
 ** Demo
 #+WIDTH: 400px
-#+CAPTION: example d'affichage
+#+CAPTION: display example of this document
+
 #+ATTR_HTML: :width 400px
 [[file:doc/example.png]]
 
